@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		38387B202771C6C80023FAC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B1F2771C6C80023FAC6 /* AppDelegate.m */; };
-		38387B232771C6C80023FAC6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B222771C6C80023FAC6 /* SceneDelegate.m */; };
 		38387B262771C6C80023FAC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B252771C6C80023FAC6 /* ViewController.m */; };
 		38387B292771C6C80023FAC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38387B272771C6C80023FAC6 /* Main.storyboard */; };
 		38387B2B2771C6CB0023FAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38387B2A2771C6CB0023FAC6 /* Assets.xcassets */; };
 		38387B2E2771C6CB0023FAC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38387B2C2771C6CB0023FAC6 /* LaunchScreen.storyboard */; };
 		38387B312771C6CB0023FAC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B302771C6CB0023FAC6 /* main.m */; };
+		38387B392771CE0E0023FAC6 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B382771CE0E0023FAC6 /* BaseNavigationController.m */; };
+		38387B4027730FD50023FAC6 /* MessageForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B3F27730FD50023FAC6 /* MessageForwarding.m */; };
+		38387B4327732D9F0023FAC6 /* MessageForwardingTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B4227732D9F0023FAC6 /* MessageForwardingTarget.m */; };
+		38387B4B277418290023FAC6 /* DictionaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B4A277418290023FAC6 /* DictionaryModel.m */; };
+		38387B4F277440130023FAC6 /* EncodeAndDecodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B4E277440130023FAC6 /* EncodeAndDecodeModel.m */; };
+		38387B5327745F840023FAC6 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B5227745F840023FAC6 /* Father.m */; };
+		38387B5627745F990023FAC6 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B5527745F990023FAC6 /* Son.m */; };
+		38387B59277460040023FAC6 /* Son+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 38387B58277460040023FAC6 /* Son+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38387B1B2771C6C80023FAC6 /* Demo_Runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38387B1E2771C6C80023FAC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38387B1F2771C6C80023FAC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		38387B212771C6C80023FAC6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		38387B222771C6C80023FAC6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		38387B242771C6C80023FAC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		38387B252771C6C80023FAC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		38387B282771C6C80023FAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +34,22 @@
 		38387B2D2771C6CB0023FAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38387B2F2771C6CB0023FAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38387B302771C6CB0023FAC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38387B372771CE0E0023FAC6 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		38387B382771CE0E0023FAC6 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		38387B3E27730FD50023FAC6 /* MessageForwarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForwarding.h; sourceTree = "<group>"; };
+		38387B3F27730FD50023FAC6 /* MessageForwarding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwarding.m; sourceTree = "<group>"; };
+		38387B4127732D9F0023FAC6 /* MessageForwardingTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForwardingTarget.h; sourceTree = "<group>"; };
+		38387B4227732D9F0023FAC6 /* MessageForwardingTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwardingTarget.m; sourceTree = "<group>"; };
+		38387B49277418290023FAC6 /* DictionaryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryModel.h; sourceTree = "<group>"; };
+		38387B4A277418290023FAC6 /* DictionaryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryModel.m; sourceTree = "<group>"; };
+		38387B4D277440130023FAC6 /* EncodeAndDecodeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncodeAndDecodeModel.h; sourceTree = "<group>"; };
+		38387B4E277440130023FAC6 /* EncodeAndDecodeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncodeAndDecodeModel.m; sourceTree = "<group>"; };
+		38387B5127745F840023FAC6 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		38387B5227745F840023FAC6 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		38387B5427745F990023FAC6 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		38387B5527745F990023FAC6 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		38387B57277460040023FAC6 /* Son+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Son+Category.h"; sourceTree = "<group>"; };
+		38387B58277460040023FAC6 /* Son+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Son+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +82,14 @@
 		38387B1D2771C6C80023FAC6 /* Demo_Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				38387B44277354A90023FAC6 /* MessageForwarding */,
+				38387B5027745F3A0023FAC6 /* MethodSwizzling */,
+				38387B48277417D40023FAC6 /* DictionaryModelConversion */,
+				38387B4C27743FA80023FAC6 /* EncodeAndDecode */,
 				38387B1E2771C6C80023FAC6 /* AppDelegate.h */,
 				38387B1F2771C6C80023FAC6 /* AppDelegate.m */,
-				38387B212771C6C80023FAC6 /* SceneDelegate.h */,
-				38387B222771C6C80023FAC6 /* SceneDelegate.m */,
+				38387B372771CE0E0023FAC6 /* BaseNavigationController.h */,
+				38387B382771CE0E0023FAC6 /* BaseNavigationController.m */,
 				38387B242771C6C80023FAC6 /* ViewController.h */,
 				38387B252771C6C80023FAC6 /* ViewController.m */,
 				38387B272771C6C80023FAC6 /* Main.storyboard */,
@@ -74,6 +99,48 @@
 				38387B302771C6CB0023FAC6 /* main.m */,
 			);
 			path = Demo_Runtime;
+			sourceTree = "<group>";
+		};
+		38387B44277354A90023FAC6 /* MessageForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				38387B3E27730FD50023FAC6 /* MessageForwarding.h */,
+				38387B3F27730FD50023FAC6 /* MessageForwarding.m */,
+				38387B4127732D9F0023FAC6 /* MessageForwardingTarget.h */,
+				38387B4227732D9F0023FAC6 /* MessageForwardingTarget.m */,
+			);
+			path = MessageForwarding;
+			sourceTree = "<group>";
+		};
+		38387B48277417D40023FAC6 /* DictionaryModelConversion */ = {
+			isa = PBXGroup;
+			children = (
+				38387B49277418290023FAC6 /* DictionaryModel.h */,
+				38387B4A277418290023FAC6 /* DictionaryModel.m */,
+			);
+			path = DictionaryModelConversion;
+			sourceTree = "<group>";
+		};
+		38387B4C27743FA80023FAC6 /* EncodeAndDecode */ = {
+			isa = PBXGroup;
+			children = (
+				38387B4D277440130023FAC6 /* EncodeAndDecodeModel.h */,
+				38387B4E277440130023FAC6 /* EncodeAndDecodeModel.m */,
+			);
+			path = EncodeAndDecode;
+			sourceTree = "<group>";
+		};
+		38387B5027745F3A0023FAC6 /* MethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				38387B5127745F840023FAC6 /* Father.h */,
+				38387B5227745F840023FAC6 /* Father.m */,
+				38387B5427745F990023FAC6 /* Son.h */,
+				38387B5527745F990023FAC6 /* Son.m */,
+				38387B57277460040023FAC6 /* Son+Category.h */,
+				38387B58277460040023FAC6 /* Son+Category.m */,
+			);
+			path = MethodSwizzling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +213,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38387B392771CE0E0023FAC6 /* BaseNavigationController.m in Sources */,
+				38387B59277460040023FAC6 /* Son+Category.m in Sources */,
 				38387B262771C6C80023FAC6 /* ViewController.m in Sources */,
+				38387B4027730FD50023FAC6 /* MessageForwarding.m in Sources */,
+				38387B4B277418290023FAC6 /* DictionaryModel.m in Sources */,
+				38387B4327732D9F0023FAC6 /* MessageForwardingTarget.m in Sources */,
 				38387B202771C6C80023FAC6 /* AppDelegate.m in Sources */,
+				38387B5627745F990023FAC6 /* Son.m in Sources */,
 				38387B312771C6CB0023FAC6 /* main.m in Sources */,
-				38387B232771C6C80023FAC6 /* SceneDelegate.m in Sources */,
+				38387B5327745F840023FAC6 /* Father.m in Sources */,
+				38387B4F277440130023FAC6 /* EncodeAndDecodeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +375,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +402,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
